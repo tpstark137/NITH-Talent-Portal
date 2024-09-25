@@ -10,6 +10,9 @@ function AllRoutes() {
       <Route path="/" element={<Home />} />
       <Route path="/login" element={<Login />} />
       <Route path="/signup" element={<SignUp />} />
+      <Route path="/jobs" element={<SignUp />} />
+      <Route path="/dashboard" element={<SignUp />} />
+      <Route path="/post/application/:jobId" element={<SignUp />} />
       <Route path="*" element={<NotFound />} />
     </Routes>
   );
